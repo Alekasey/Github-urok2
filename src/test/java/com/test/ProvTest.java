@@ -25,7 +25,7 @@ public class ProvTest {
         $("#searchInput").setValue("a");
         $(".suggestions-dropdown").$("[href=\"https://ru.wikipedia.org/wiki/Apple\"]").click();
 
-        $("#firstHeading").shouldHave(text("Apple"));
+        $("#bodyContent").shouldHave(text("В 2018 году заняла третье место в списке 500 лучших"));
 
    }
 }
